@@ -27,7 +27,7 @@
 					},
 					"sink": {
 						"type": "AzureSqlSink",
-						"preCopyScript": "Truncate table CarsData",
+						"preCopyScript": "delete from CarsData",
 						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
