@@ -14,30 +14,20 @@
 		"type": "AzureSqlTable",
 		"schema": [
 			{
-				"name": "Make",
+				"name": "ICAO",
 				"type": "nvarchar"
 			},
 			{
-				"name": "Model",
+				"name": "IATA",
 				"type": "nvarchar"
 			},
 			{
-				"name": "Type",
+				"name": "MAKER",
 				"type": "nvarchar"
 			},
 			{
-				"name": "Origin",
+				"name": "DESCRIPTION",
 				"type": "nvarchar"
-			},
-			{
-				"name": "DriveTrain",
-				"type": "nvarchar"
-			},
-			{
-				"name": "Length",
-				"type": "decimal",
-				"precision": 18,
-				"scale": 0
 			}
 		],
 		"typeProperties": {
