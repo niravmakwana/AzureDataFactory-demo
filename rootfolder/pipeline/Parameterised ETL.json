@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Parameterised ETL",
 	"properties": {
 		"activities": [
 			{
@@ -116,14 +116,20 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "carscsv",
-						"type": "DatasetReference"
+						"referenceName": "InputCSV",
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": "planes.csv"
+						}
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "carstable",
-						"type": "DatasetReference"
+						"referenceName": "OutputTable",
+						"type": "DatasetReference",
+						"parameters": {
+							"tableName": "Planes"
+						}
 					}
 				]
 			}
