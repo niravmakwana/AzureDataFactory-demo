@@ -5,13 +5,13 @@
 		"factoryName": {
 			"value": "AzureDataFactory-Demo-Nirav"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"Outputsql_connectionString": {
 			"value": ""
 		},
 		"inputblob_connectionString": {
-			"value": ""
-		},
-		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
 		"containerUri": {
