@@ -178,7 +178,9 @@
 						}
 					},
 					"sink": {
-						"type": "AzureSqlSink"
+						"type": "AzureSqlSink",
+						"preCopyScript": "truncate table dbo.CarsDataTable;",
+						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
 					"translator": {
