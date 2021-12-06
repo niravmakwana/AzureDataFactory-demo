@@ -1,0 +1,9 @@
+{
+	"name": "AzureDataFactory-Demo-Nirav",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "be1d7339-7aef-40ae-8c20-6818ed4c421f",
+		"tenantId": "b6417cd0-1f73-4471-9a39-20953822a34a"
+	}
+}
